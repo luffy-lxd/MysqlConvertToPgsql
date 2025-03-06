@@ -8,3 +8,6 @@
 - 支持解析replace into语句（pgSQL不支持的语法，以insert ... into ... on conflict实现）
 - 支持解析复杂where子句，包含组合条件、二元运算符（and or like in..）和逻辑运算符（between、 not between）
 - modify和change(pgSQL也不支持)，使用先drop后add的方式实现
+
+
+工具调用入口：MysqlAnalyse.class 支持传入sql语句或者sql脚本文件
